@@ -1,0 +1,49 @@
+.nasa-rover {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 1rem;
+  grid-template-columns: repeat(13, 1fr);
+  margin: 0 auto;
+}
+
+.container {
+  text-align: center;
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-title {
+  margin-top: 1rem;
+}
+
+.text {
+  width: 100%;
+  text-align: justify;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.5rem;
+  margin: 1.2rem auto;
+}
+
+.name {
+  padding: 0.2rem;
+}
+
+.images {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.home {
+  transform: translateY(1.4rem);
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .nasa-rover {
+    grid-template-columns: repeat(1, 1fr);
+    width: 80%;
+  }
+}
